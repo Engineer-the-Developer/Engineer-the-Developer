@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscript & Superscript</title>
+</head>
+<body>
+    <!-- We are going to write some chemical equations, Formulae & Mathematics equation by using Superscript & Subscript -->
+
+    <!-- 1. Chemical equation first -->
+
+<p>C + O <Sub>2</Sub> &#8594; </p>
+
+<!-- 2. Chemical equation second -->
+
+<p>O <sub>2</sub> + O &#8594; O <sub>3</sub></p>
+
+<!-- 3. Formula of Sulphuric acid -->
+
+<p>H<sub>2</sub>SO<sub>4</sub></p>
+
+<!-- 4. Square roots & cube roots -->
+
+<p>2<sup>2</sup>=4</p>
+<p>4<sup>2</sup>=16</p>
+<p>5<sup>2</sup>=25</p>
+
+<p>3<sup>3</sup>=27</p>
+<p>5<sup>3</sup>=125</p>
+<p>8<sup>3</sup>=512</p>
+
+
+
+
+
+</body>
+</html>
