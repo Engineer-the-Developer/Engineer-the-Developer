@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORMS</title>
+</head>
+<body>
+    
+    <!-- This is our main body -->
+
+    <!-- This is our Application Form, by using this we can collect data from jobseekers who want to built their career in Education. -->
+    
+    <!-- This is our form element -->
+
+    <form action="">
+    
+        <fieldset>
+            <legend>Application Form (Edtech Company)</legend>
+            <!-- This is our Heading -->
+
+            <h1>Insight SSC</h1>
+            
+            <!-- Br tag to change paragraph -->
+
+            <br>
+
+            <!-- Label for First Name -->
+
+            <label for="fname">First Name:</label><br>
+
+            <!-- Input for First Name -->
+
+        <input type="First Name" name="first name" id="First Name"><br><br>
+
+        <!-- Lable for middle name -->
+
+        <label for="Middle Name">Middle Name (optional):</label><br>
+
+        <!-- Input for middle name  -->
+
+        <input type="text" name="Middle Name " id="Middle Name"><br><br>
+
+        <label for="Last Name">Last Name:</label><br>
+        <input type="text" name="Last Name" id="Last Name"><br><br>
+
+        <label for="Contact Number">Mobile Number:</label><br>
+        <input type="text" required="Mobile Number" id="Mobile Number">
+       <input type="button" value="Verify"><br><br>
+
+        <label for="Email">Email Address</label><br>
+        <input type="email" name="Email Address" required="Email Address">
+        <input type="button" value="Verify"><br><br
+
+        <label for="Application">Applying For:</label><br>
+
+        <input type="radio" name="Educator" id="Educator">
+        <label for="Educator">Educator</label>
+
+        <input type="radio" name="content Developer" id="content Developer">
+        <label for="content Developer">Content Developer</label>
+
+        <input type="radio" name="Evaluator" id="Evaluator">
+        <label for="Evaluator">Evaluator</label><br><br>
+
+
+        <p>Choose Domain:</p>
+
+        <label for="SSC">SSC</label>
+        <input type="checkbox" name="SSC" id="SSC"><br>
+
+        <label for="RRB">RRB</label>
+        <input type="checkbox" name="RRB" id="RRB"><br>
+
+        <label for="AFCAT">AFCAT</label>
+        <input type="checkbox" name="AFCAT" id="AFCAT"><br>
+
+        <label for="CDS">CDS</label>
+        <input type="checkbox" name="CDS" id="CDS"><br><br>
+
+
+
+
+        <p>Choose Subject:</p>
+
+        <label for="Current affairs">Current Affairs</label>
+        <input type="checkbox" name="Current Affairs" id="Current Affairs"><br>
+
+        <label for="General Science">General Science</label>
+        <input type="checkbox" name="General Science" id="General Science"><br>
+
+        <label for="Reasoning">Reasoning</label>
+        <input type="checkbox" name="Reasoning" id="Reasoning"><br>
+
+        <label for="Quants">Quants</label>
+        <input type="checkbox" name="Quants" id="Quants"><br>
+
+        <label for="English">English</label>
+        <input type="checkbox" name="English" id="English"><br><br>
+
+        <label for="Message">Message:</label><br>
+        <textarea name="Message" id="Message" cols="80" rows="10">Tell us about your work experience</textarea><br><br>
+
+        <label for="Resume">Attach your "RESUME"</label><br>
+        <input type="file" required="file" id="file"><br><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+
+</fieldset>
+        
+        
+
+   
+        
+    </form>
+</body>
+</html>
